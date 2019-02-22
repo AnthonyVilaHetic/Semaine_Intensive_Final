@@ -172,3 +172,32 @@ input{
   position: fixed;
 
 }
+
+@media screen and (max-width: 700px){
+  .label_1{
+    width: 300px;
+
+  }
+
+ input{
+
+
+   font-size: 0.8rem;
+
+ }
+ .main2__adresse{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+
+   width: 100%;
+
+ }
+ .main2__adresse__image img{
+
+   width : 300px;
+ }
+
+
+
+ }
