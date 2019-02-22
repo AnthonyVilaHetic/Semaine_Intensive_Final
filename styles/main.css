@@ -1,0 +1,652 @@
+body{
+  border:0;
+  margin:0;
+}
+
+@font-face {
+  font-family: "SF Display Regular";
+  font-weight: 400;
+  src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: "SF Display Medium";
+  font-weight: 500;
+  src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
+}
+
+@font-face {
+  font-family: "SF Display Light";
+  font-weight: 200;
+  src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
+}
+
+.container{
+  width: 75%;
+  margin: 0 auto;
+
+}
+
+h1{
+  font-family: "SF Display Regular";
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2{
+  font-family: "SF Display Regular";
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3{
+  font-family: "SF Display Regular";
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+p{
+  font-family: "SF Display Light", sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  letter-spacing: .1rem;
+  text-align: center;
+}
+a{
+  font-family: "SF Display Medium";
+  margin: 0%;
+  text-decoration: none;
+  color:white ;
+}
+
+/* Header */
+
+header {
+  background-color: #2D2D2D;
+  width: 100%;
+  margin-top: 0%;
+  height: auto;
+}
+header nav {
+  height: 3%;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: white;
+}
+
+.Homepod{
+  margin: 0 -30px;
+  justify-content: space-around;
+}
+.main__img__one {
+    height: 35%;
+    width: 35%;
+}
+
+
+header nav ul, .main__section__two__content {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+ ul li {
+  text-decoration: none;
+  list-style: none;
+ }
+
+ ul {
+  margin: 0; }
+
+
+/* Section 1 :  */
+
+  .main__section__one__content {
+      justify-content: center;
+      text-align: center;
+  }
+
+  .main__section__one__content {
+      height: 200%;
+      width: 100%;
+      background-color: #000000;
+      font-size: 1rem;
+      color: white;
+  }
+  #subheader_button {
+      padding-top: 2%;
+      display: block;
+      width: 65%;
+      margin: 0 auto;
+      font-size: 1.25rem;
+       }
+      button {
+      border-radius: 8%;
+      background: black;
+      color: #BBBBBB;
+      display: flex;
+      border: 1.5px solid;
+      width: 15%;
+      font-size: 1em;
+      margin: 0 auto;
+      justify-content: center;
+   }
+
+   /* Section 2 :  */
+
+   .main__section__two{
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+   }
+
+   .main__section__two__info__title{
+     width: 70%;
+     margin: 0 auto;
+     padding-top: 1.5rem;
+     padding-bottom: 1.5rem;
+   }
+
+   .main__section__two__text {
+     width: 90%;
+     margin: 0 auto;
+     padding-bottom: 0.5rem;
+   }
+
+   .main__section__two__text p{
+     width: 70%;
+     margin: 0 auto;
+   }
+
+   .main__section__two__picture__one{
+     width: 100%;
+     margin: 0 auto;
+     padding-top: 2.5rem;
+   }
+
+   .main__section__two__picture__two{
+     display: block;
+     margin: 0 auto;
+     width: 30%;
+     height: 30%;
+   }
+
+   .main__section__two__second__info{
+     display: flex;
+     justify-content: space-between;
+   }
+
+   .main__section__two__second__info p{
+     font-size: 1rem;
+   }
+
+   .main__section__two__second__info h2{
+     font-size: 1.5rem;
+   }
+
+/* Section 3 : Vidéo */
+.main__section__three{
+  padding-top: 3rem;
+}
+
+.main__section__three__text h1{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 6%;
+}
+
+.main__section__three__video p{
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 4%;
+}
+
+/* Section 4 : 2.5KG, SIRI, AirPlay */
+.main__section__four{
+  display: flex;
+  padding: 3rem 0rem;
+
+}
+
+.main__section__four__title{
+  font-size: 3.75rem;
+  font-family: "SF Display Regular", sans-serif;
+  margin: 0 auto;
+}
+
+.main__section__four__side{
+  width:70%;
+  padding: 3rem 1rem;
+}
+
+#main__section__four__center{
+  padding: 3rem 1rem;
+  border-left: 0.0625rem solid black;
+  border-right: 0.0625rem solid black;
+}
+
+.main__section__four__text{
+  font-size: 1rem;
+}
+
+/* Section 5 */
+
+.main__section__five{
+  margin-top: 1rem;
+}
+
+.main__section__five__info__title{
+  width: 40%;
+  margin: 0 auto;
+  padding-bottom: 2.5rem;
+}
+
+.main__section__five__info__text{
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+/* Section 6 : 2 Iphones */
+
+.main__section__six{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  overflow: hidden;
+}
+
+.main__section__six img{
+  width: 85%;
+  margin: 0 auto;
+  padding : 0;
+}
+
+.main__section__six p{
+  font-size: 1rem;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.main__section__six__left{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main__section__six__right{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main__section__six p{
+  padding-bottom: 1rem;
+}
+
+/* Line */
+
+.main__section__line{
+  border-top: .1rem solid #DDD;
+}
+
+/* Section seven */
+
+.main__section__seven{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.main__section__seven__text{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main__section__seven_one{
+  width: 40%;
+}
+
+.main__section__seven__apps{
+  height: 9.375rem;
+  display: flex;
+  justify-content: center;
+}
+
+.main__section__seven_one img{
+  width: 9%;
+  padding: 2rem 3rem;
+
+}
+.main__section__seven__apps img{
+  width: 70px;
+  height: 70px;
+  padding-top:50px;
+}
+
+.main__section__seven_img{
+  width:14%;
+}
+
+.main__section__seven_one h1{
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Section Eight : Mais quel duo ! */
+.main__section__eight{
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+
+.main__section__eight__text p{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main__section__eight__container__images{
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__section__eight__images{
+  width: 30%;
+  height: 40%;
+  padding: 0 7rem;
+}
+
+/* Section Nine : Slider HomePod components */
+
+.main__section__nine{
+  display: flex;
+  padding-bottom: 10rem;
+}
+
+.main__section__nine__images__slider{
+  position: relative;
+  width: 50%;
+}
+
+.main__section__nine__images{
+  width: 100%;
+  height: auto;
+  position : absolute;
+  top: 0.1rem;
+  left: -4rem;
+  transition: opacity 2s;
+  opacity: 0;
+}
+
+.main__section__nine__images.activeImage{
+  opacity: 1;
+}
+
+.main__section__nine__text.activeText{
+  opacity: 1
+}
+.main__section__nine__text{
+  color: #O0O;
+  opacity: 0.4;
+  transition: opacity 1s;
+}
+.main__section__nine__text__slider{
+   width: 50%;
+}
+
+.main__section__nine__text h2{
+  font-size: 1.25rem;
+}
+
+.main__section__nine__text p{
+  font-size: 0.75rem;
+}
+
+/* Footer */
+
+.footer{
+  width: 75%;
+}
+
+footer{
+   display: flex;
+   justify-content: center;
+  background-color: #F2F2F2;
+
+ }
+
+ .footer h3{
+  font-size: 1,25rem;
+ }
+
+.footer p{
+  font-size: 0.75rem
+}
+ .footer__top{
+  display: flex;
+  padding-top: 20px;
+}
+
+.footer__bottom ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 20px;
+}
+
+.footer__top__one{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__top__two{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__top__three{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__top__four{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__top p{
+  text-align: center;
+}
+
+.footer a{
+  font-size: 0,7rem;
+  text-decoration: none;
+  font-family: "SF Display Regular";
+}
+
+.footer__top a{
+  color: #66BBFF;
+}
+
+.footer__bottom a{
+  color: black;
+  font-size: 10px;
+}
+
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 700px){
+  #main_p {
+    font-size:0.6rem;
+
+  }
+  button{
+    width:100px;
+    font-size:1em;
+  }
+
+  h2{
+    font-size: 1.4rem;
+
+  }
+
+  header nav{
+    width: 100%;
+
+  }
+  .main__section__two__first__info p{
+
+    font-size: 0.9rem;
+  }
+
+  .main__section__two__text p{
+    font-size: 0.9rem;
+  }
+  .main__section__two__info{
+
+    width: 100%;
+  }
+  .main__section__two__second__info{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+
+
+
+  h1{
+    font-size: 1.4rem;
+  }
+  .main__section__three__text {
+    font-size: 0.8rem;
+  }
+  .main__section__four{
+    display: flex;
+    padding: 3rem 0rem;
+
+  }
+
+  .main__section__four__title{
+    font-size: 1.5rem;
+
+  }
+
+  .main__section__four__side{
+
+    padding: 3rem 1rem;
+  }
+
+  #main__section__four__center{
+    padding: 4rem 1rem;
+  }
+
+  .main__section__four__text{
+    font-size: 0.8rem;
+  }
+
+  .main__section__five__info__title{
+    width: 90%;
+
+    padding: 2rem;
+    font-size: 1.5em;
+  }
+
+  .main__section__five__info__text{
+
+    width: 90%;
+    padding: 0.8rem;
+    font-size:0.8rem
+  }
+
+  .main__section__six{
+
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .main__section__six__left{
+
+
+    width: 90%;
+  }
+  .main__section__six__right{
+
+
+    width: 90%;
+  }
+
+  .main__section__seven__one p{
+    font-size: 0.8rem
+  }
+  .main__section__seven__apps img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .main__section__eight__container__images img{
+    width: 35%;
+    height: 35%;
+
+
+  }
+  .main__section__nine container{
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+    border: 0;
+  }
+  .main__section__nine__text__slider{
+    width:100%;
+
+
+  }
+  .main__section__nine__images__slider img{
+    display: flex;
+    align-items: center;
+
+
+  }
+  .main__section__nine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+
+  }
+  .main__section__nine__text{
+
+    align-items: flex-start;
+    width: 100%;
+
+}
+  .main__section__nine__text__pad{
+    padding-top: 300px;
+}
+
+  .footer__top{
+    flex-direction: column;
+    align-items: center;
+
+}
+  .footer__top img {
+  padding-top:20px;
+
+  }
+ }
