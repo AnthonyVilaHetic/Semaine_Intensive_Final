@@ -1,0 +1,247 @@
+body{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "SF Display Regular";
+  font-weight: 400;
+  src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: "SF Display Medium";
+  font-weight: 500;
+  src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
+}
+
+@font-face {
+  font-family: "SF Display Light";
+  font-weight: 200;
+  src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: "SF Display Regular";
+  font-size: 4.75rem;
+  text-align: center;
+}
+
+h2{
+  font-family: "SF Display Regular";
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3{
+  font-family: "SF Display Regular";
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+p{
+  font-family: "SF Display Light", sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  letter-spacing: .1rem;
+  text-align: center;
+}
+a{
+  font-family: "SF Display Regular";
+  margin: 0%;
+  text-decoration: none;
+  color:white ;
+}
+
+header {
+  background-color: rgba(0,0,0,.8);
+  box-sizing: content-box;
+  display: block;
+  font-family: "SF Display Regular";
+  font-size: 17px;
+  font-weight: 400;
+  height: 48px;
+  left: 0;
+  margin: 0;;
+  padding: 0;
+  pointer-events: auto;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  text-size-adjust: 100%;
+  top: 0;
+  width: 100%;
+}
+header nav {
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: white;
+}
+
+
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+
+}
+ul li {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  padding-top: 1.3%;
+  padding-bottom:1%;
+  justify-content: space-between;
+}
+
+ul {
+ margin: 0;
+}
+
+
+/* Main */
+
+/* Main */
+
+.main__choice{
+  text-align: center;
+
+  padding-bottom: 3rem;
+}
+
+.main__choice__imgs{
+  width: 20em;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 17%;
+}
+
+.main__choice__buttons__container{
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__choice__buttons{
+  display: flex;
+}
+
+.white_round{
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  border:0.05rem solid #DDD;
+}
+
+.grey_round{
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  border:0.05rem solid #DDD;
+  background-color: #AAA;
+}
+
+.main1__adresse__image{
+  position: absolute;
+  padding-top: 150px;
+}
+
+#bouton{
+  position: absolute;
+  width: 10%;
+  margin:0 auto;
+  border:20px;
+  background: #2B9CE2;
+  border-radius: 5px;
+  height: 50px;
+  margin-top: 900px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Footer */
+
+.footer{
+  width: 75%;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #F2F2F2;
+ }
+
+ .footer h3{
+  font-size: 1,25rem;
+ }
+
+.footer p{
+  font-size: 0.75rem
+}
+ .footer__top{
+  display: flex;
+  padding-top: 20px;
+}
+
+.footer__bottom ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 20px;
+}
+
+.footer__top__one{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__top__two{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__top__three{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__top__four{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__top p{
+  text-align: center;
+}
+
+.footer a{
+  font-size: 0,7rem;
+  text-decoration: none;
+  font-family: "SF Display Regular";
+}
+
+.footer__top a{
+  color: #66BBFF;
+}
+
+.footer__bottom a{
+  color: black;
+  font-size: 10px;
+}
