@@ -131,7 +131,7 @@ form#contact>.form-control , .form-col>.form-control{
   line-height: 25px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  color: ##FFFFFF;
+  color: #FFFFFF;
   text-transform: uppercase;
   cursor: pointer;
   box-shadow:1px 1px 3px #999;
@@ -150,3 +150,61 @@ form#contact>.form-control , .form-col>.form-control{
   position: absolute;
   padding-top: 150px;
 }
+
+@media screen and (max-width: 700px){
+  label{
+    width: 300px;
+
+  }
+  .label_1{
+    width: 300px;
+
+
+  }
+.form-control select{
+  width:300px;
+
+
+
+
+}
+ input{
+
+
+   font-size: 0.8rem;
+
+ }
+ .main2__adresse__image img{
+
+   width : 300px;
+ }
+ .form-col{
+
+   display:flex;
+   flex-direction: column;
+
+ }
+ .main2__adresse{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+
+   width: 70%;
+
+ }
+ .main2__adresse img{
+   width:200px;
+ }
+
+ #bouton2{
+   width: 40%;
+   margin: 0;
+   height: 50px;
+   margin-top:20px;
+
+ }
+
+
+
+
+ }
