@@ -111,32 +111,41 @@ nav ul li {
   list-style: none;
  }
 
-.main__section__one__content{
+/* Section 1 :  */
+
+.main__section__one__content {
   justify-content: center;
   text-align: center;
 }
-#link_subheader{
-  color:#66BBFF;
-  padding-top: 50%;
-  margin-top:25%
 
- }
-
-.main__img__one{
-  height: 35%;
-  width:35%;
+.main__section__one__content {
+  height: 200%;
+  width: 100%;
+  background-color: #000000;
+  font-size: 1rem;
+  color: white;
 }
-button{
-  border-radius:8%;
-  background:black;
-  color:#BBBBBB;
-  justify-content: center;
-  text-align: center;
+#subheader_button {
+  padding-top: 2%;
+  display: block;
+  width: 65%;
+  margin: 0 auto;
+  font-size: 1.25rem;
+   }
+  button {
+  border-radius: 8%;
+  background: black;
+  color: #BBBBBB;
+  display: flex;
   border: 1.5px solid;
-  width:10%;
-  font-family:"SF Pro Text Regular";
-  font-size:1em;
+  width: 15%;
+  font-size: 1em;
+  margin: 0 auto;
+  justify-content: center;
 }
+
+/* Section 2 :  */
+
 #logo-header{
   width: 16px;
   padding-top: 15%;
